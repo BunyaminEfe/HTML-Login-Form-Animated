@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Instagram @bejo_app</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' href='style.css'>
+</head>
+<body>
+
+   <div class="container">
+        <div class="card">
+            <div class="content">
+                <h2>Login Form</h2>
+                    <form>
+                        <u style="color: white;"><h1 style="color: white;">Login Form</h1></u>
+                        <div class="inputBox">
+                            <input type="text" value="Username">
+                        </div>
+                        <div class="inputBox">
+                            <input type="password" placeholder="Password">
+                        </div>
+                        <div class="inputBox">
+                            <a type="submit" value="Login" href="#">Login</a>
+                            <a type="submit" value="Register" href="#">Register</a>
+                            <a type="submit" value="" href="https://www.instagram.com/bejo_app/">Instagram</a>
+                            <br>
+                        </div>
+                    </form>
+           </div>
+       </div>
+   </div> 
+<script type="text/javascript" src="bejo.js"></script>
+<script>
+    	bejo.init(document.querySelectorAll(".card"), {
+                max: 25,
+                speed: 400,
+                glare: true,
+                "max-glare": 1,
+
+            });
+</script>
+</body>
+</html>
